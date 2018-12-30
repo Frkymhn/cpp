@@ -17,18 +17,9 @@ using namespace std;
 #define cints(a) string a;cin>>a
 #define cint2(a,b) int a,b;cin>>a>>b
 #define cint3(a,b,c) int a,b,c;cin>>a>>b>>c
-
 int main()
 {
-	cint1(T);
-	while(T--)
-	{
-		cint1(n);
-		int dm,p,nm;
-		dm = pow(2,n);
-		p = pow(-1,n);
-		nm = (dm-p)/3;
-		cout<<nm<<" "<<dm<<" ";
-	}
+	cint2(n,c);
+	
 	return 0;
 }
